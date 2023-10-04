@@ -53,11 +53,6 @@
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
 
-  <androidx.constraintlayout.widget.Group
-      android:id="@+id/group2"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      app:constraint_referenced_ids="button3" />
 
   <TextView
       android:id="@+id/textView2"
@@ -74,5 +69,20 @@
       app:layout_constraintHorizontal_bias="0.0"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:text="Random Number Generator"
+      android:textColor="#FFFFFF"
+      android:textSize="24sp"
+      app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+      app:layout_constraintEnd_toEndOf="@+id/toolbar"
+      app:layout_constraintHorizontal_bias="0.023"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/toolbar" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
